@@ -1,0 +1,283 @@
+{box-sizing: border-box}
+
+​html #sendit
+{
+  background-color: :#C0C0C0;
+}
+.logo {
+    float: left;
+    z-index: 10;
+    position: relative;
+}
+@media screen and(mac-width:700px)
+{
+    .logo{
+      top: 24px;
+      left:20px:
+  }
+}
+    .h1{
+      color:#00FFFF;
+      text-align: center;
+      background-color:#C0C0C0;
+    }
+    .h3,h6, h8{
+    text-align: center;
+    color: Black;
+    width: 200%;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    }
+    
+input[type=text], input[type=password] {
+  width: 95%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #1e90ff;
+  outline: none;
+}
+
+button {
+  background-color: #1e90ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:#00FFFF;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 10%;
+}
+
+.container {
+  padding: 35px;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: #808000;
+  padding-top: 50px;
+}
+.modal-content {
+  background-color: #ADD8E6;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+hr {
+  border: 1px solid #5C5858;
+  margin-bottom: 25px;
+}
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+{box-sizing: border-box}
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0px 0 5px 0;
+} 
+
+input,
+.btn {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin: 10px 5;
+  opacity: 0.85;
+  display:block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+
+input[type=submit] {
+  background-color: #1e90ff;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1e90ff;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: inline-block;
+  clear: both;
+  color:gray;
+  width: 100%
+}
+
+.inner {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+.hide-md-lg {
+  display: none;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color:  #ADD8E6;
+  border-radius: 0px 0px 4px 4px;
+  text-align: Center;
+}
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+.header__headerMain___KyQaM {
+
+}
+pv1 {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+link, .link:active, .link:focus, .link:hover, .link:link, .link:visited {
+    transition: color .10s ease-in;
+}
+.header__ParcelNavLink___Nr1hY {
+    color: #222;
+    letter-spacing: 0.015605em;
+}
+.footer_top_holder {
+    background-color:#ADD8E6;
+    position: relative;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+th {
+    text-align: left;
+}
+table {
+    border-spacing: 5px;
+}
+.nav-bar{
+  background-color: blue;
+  color:black;
+  margin-right:20px;
+}
+.nav-bar,.nav-left li{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-right:20px;
+}
+.content{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top: 50px;
+}
+.nav-bar li{
+  list-style:none;
+  margin-right:20px;
+  flex-direction:column;
+  display:flex;
+  justify-content: space-between;
+}
+.nav-left li{
+  margin-right:20px;
+  float:right;
+  flex-direction: column;
+  justify-content:space-around; 
+  display:flex;
+}
+ .container1{
+  width: 50%;
+ }

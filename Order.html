@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<title> SendIT-Order</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav>
+<ul>
+<li>
+<a href="Order.html">Order</a>
+</li>
+</ul>
+</nav>
+<div class="container">
+      <div class="row">
+      <h3 style="text-align:center"> Create your Parcel Delivery Order!</h3>
+      </div>
+      <div class="col">
+        <div class="hide-md-lg">
+        </div>
+      </div>
+    </div>
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+    </div>
+    </div>
+    <table>
+    <tr>
+      <th>From:</th>
+      <td>
+      <select>
+       <option value="Rwanda">Rwanda</option>
+       <option value="Burundi">Burundi</option>
+       <option value="South Africa">South Africa </option>
+       <option value="Nigeria">Nigeria </Option>
+       <option value="Kenya">DRC</option>
+       <option value="Kenya">Botswana</option>
+       <option value="Kenya">Ghana</option>
+       <option value="Kenya">Egypt</option>
+       <option value="Kenya">Mali</option>
+       </select>
+       </td>
+       </tr>
+       </table>
+       <table>
+       <tr>
+      <th>To:</th>
+      <td>
+      <select>
+       <option value="Rwanda">Rwanda</option>
+       <option value="Burundi">Burundi</option>
+       <option value="South Africa">South Africa </option>
+       <option value="Nigeria">Nigeria </Option>
+       <option value="Kenya">kenya</option>
+       <option value="Kenya">DRC</option>
+       <option value="Kenya">Botswana</option>
+       <option value="Kenya">Ghana</option>
+       <option value="Kenya">Egypt</option>
+       <option value="Kenya">Mali</option>
+       </select>
+       </td>
+       </tr>
+       </table>
+    </div>
+    <button style="width: 50%;margin-left: 50px" id="Order">Order</button>
+    <div class="col">
+      
+      <h6 style="text-align:left;"> Please, Check Price </h6>
+    <div class="parentDiv">
+      <div id="price">
+        <div class="textbox">
+          <input type="country" name="" placeholder=" Enter collection location">
+          <input type="text" name="" placeholder=" Enter delivery location">
+          </div>
+          <div class='textbox'>
+          <input type="number" name="" placeholder=" Enter weight" class='enteredNumber'>
+          </div>
+          </div>
+          <button id="priceCheck">Price</button>
+          <button id="addingchecker" onclick="addparcel()"> +add a parcel</button>
+          <div id="result"></div>
+          </div>
+
+    <div class="col">
+     
+      <h8 style="text-align:left;"> 
+      Cancel Your Order from Here </h8>
+      <button style="width: 50%" type="button" id="id01">Cancel</button>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+
+
